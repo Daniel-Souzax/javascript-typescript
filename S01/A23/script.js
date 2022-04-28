@@ -1,9 +1,7 @@
-let varA = "A"; // B
-let varB = "B"; // C
-let varC = "C"; // A
+let a = "A"; // B
+let b = "B"; // C
+let c = "C"; // A
 
-// varA = varB;
-// varB = varC;
-// varC = varA;
+[a, b, c] = [b, c, a];
 
-console.log((varA = varB), (varB = varC), (varC = varA));
+console.log(a, b, c);
