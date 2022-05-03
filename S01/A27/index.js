@@ -1,5 +1,5 @@
 num1 = 10;
-// console.log(100 / 0);
+console.log(100 / 0);
 
 // let num2 = Math.floor(num1); Arredonda pra cima
 // let num2 = Math.ceil(num1); Arredonda pra baixo
