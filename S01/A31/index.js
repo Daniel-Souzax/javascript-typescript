@@ -20,6 +20,17 @@
 //   return Math.sqrt(n);
 // };
 
-const raiz = (n) => Math.sqrt(n);
+// const raiz = (n) => Math.sqrt(n);
 
-console.log(raiz(9));
+// console.log(raiz(9));
+console.log("aaaa");
+
+let epifaCareca = [];
+let c = 0;
+let i = 10;
+
+while (c <= 10) {
+  epifaCareca.push(c);
+  console.log(epifaCareca);
+  c++;
+}
