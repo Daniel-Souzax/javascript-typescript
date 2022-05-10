@@ -1,0 +1,24 @@
+
+addEventListener() = Adiciona um evento no elemento
+EX: const form = document.querySelector("#formulario");
+    form.addEventListener("submit");
+
+preventDefault() = Ele cancela o a ação padrão do evento
+
+innerHTML = Serve para inserir textos e elementos html no id / classe selecionado. 
+EX: const resultado = document.querySelector("#resultado");
+    resultado.innerHTML = `<p> Olá mundo </p>`;
+
+querySelector() = É uma função que coleta um elemento pelo id ou class.
+EX: const input = document.querySelector("#input");
+
+document.createElement() = É uma função que atribui um elemento
+EX: const paragrafo = document.createElement("p");
+
+classList.add() = É uma função que atribui uma classe para o elemento
+EX:  paragrafo.classList.add("paragrafo-main");
+
+appendChild() = ele adiciona um filho para o elemento
+EX: const div = document.querySelector("#div-area");
+    const elemento = document.createElement("p");
+    div.appendChild(p)
