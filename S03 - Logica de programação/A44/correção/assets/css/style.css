@@ -70,3 +70,7 @@ form button:active {
     margin-bottom: 0;
 }
 
+.paragrafo-resultado{
+    background: rgb(109, 255, 182);
+    padding: 10px 20px;
+}
